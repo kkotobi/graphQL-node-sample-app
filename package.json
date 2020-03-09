@@ -4,7 +4,7 @@
   "description": "Sample app using graphQL and express",
   "main": "src/index.js",
   "scripts": {
-    "start": "node -r esm src/index.js",
+    "start": "pm2 start src/index.js --node-args=\"-r esm\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,6 +19,7 @@
     "esm": "3.2.25",
     "express": "4.17.1",
     "graphql": "14.6.0",
-    "graphql-tools": "4.0.7"
+    "graphql-tools": "4.0.7",
+    "pm2": "4.2.3"
   }
 }
