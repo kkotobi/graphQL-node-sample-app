@@ -2,8 +2,9 @@
   "name": "graphQL-node-sample-app",
   "version": "1.0.0",
   "description": "Sample app using graphQL and express",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node -r esm src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
